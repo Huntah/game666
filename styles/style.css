@@ -1,0 +1,222 @@
+/* BASIC STYLING */
+
+#header {
+	text-align:center;
+	height:5%;
+	background-color:blue;
+	width:100%;
+}
+
+#container {
+	height:99vh;
+	width:99vw;
+	background-color:pink;
+}
+
+#gameContainer {
+	height:95%;
+	width:100%;
+	/*background-color:red;*/
+}
+
+#popUpCoord {
+	top:25%;
+	left:35%;
+	width:30%;
+	height:35%;
+	position:fixed;
+	background-color:gray;
+	display:none;
+}
+
+#popUpTownhall {
+	top:200px;
+	left:200px;
+	width:1250px;
+	height:500px;
+	position:fixed;
+	background-color:gray;
+	overflow-y:auto
+}
+
+#popUpSmallMenu {
+	top:200px;
+	left:450px;
+	width:750px;
+	height:350px;
+	position:fixed;
+	background-color:gray;
+}
+
+#popUpWarning {
+	top:300px;
+	left:550px;
+	width:500px;
+	height:300px;
+	position:fixed;
+	background-color:red;
+}
+
+#progressBars {
+	top:680px;
+	left:180px;
+	width:1285px;
+	height:55px;
+	position:fixed;
+	/*background-color:red;*/
+}
+
+#buildingShop {
+	top:200px;
+	left:300px;
+	width:1080px;
+	height:660px;
+	position:fixed;
+	background-color:gray;
+	overflow:auto;
+	overflow-x: scroll;
+}
+
+#testCityFortDiv {
+	top:200px;
+	left:1150px;
+	width:250px;
+	height:150px;
+	position:fixed;
+	/*z-index:10;
+	/*background-color:black;
+	/*display:none;*/
+}
+
+#testCityResourcesDiv {
+	top:180px;
+	left:280px;
+	width:500px;
+	height:150px;
+	position:fixed;
+	/*z-index:10;
+	/*background-color:black;
+	/*display:none;*/
+}
+
+#testCityHousesDiv {
+	top:370px;
+	left:360px;
+	width:500px;
+	height:150px;
+	position:fixed;
+	/*z-index:10;
+	/*background-color:black;
+	/*display:none;*/
+}
+
+#testCityMilitaryDiv {
+	top:520px;
+	left:810px;
+	width:400px;
+	height:150px;
+	position:fixed;
+	/*background-color:black;
+	/*display:none;*/
+}
+
+#mapButtons {
+	top:135px;
+	left:715px;
+	width:14%;
+	height:5%;
+	position:fixed;
+}
+
+#mainCanvas {
+	/*height:0px;*/
+}
+
+#sectionResourceDisplay {
+	height:10%;
+	width:100%;
+}
+
+#sectionResourceDisplayCenter {
+	margin:auto;
+	width:40%;
+	background-color:gray;
+	height:100%;
+}
+
+#sectionResourceDisplayLeft {
+	float:left;
+	width:30%;
+	background-color:red;
+	height:100%;
+}
+
+#sectionResourceDisplayRight {
+	float:right;
+	width:30%;
+	background-color:red;
+	height:100%;
+}
+
+#menuLeft {
+	height:90%;
+	width:10%;
+	background-color:blue;
+	float:left;
+}
+
+#menuRight {
+	height:90%;
+	width:10%;
+	background-color:blue;
+	float:right;
+}
+
+#gameWindow {
+	height:65%;
+	width:80%;
+	background-color:green;
+	margin:auto;
+}
+
+#canvasDiv {
+	height:65%;
+	width:80%;
+	background-color:green;
+	margin:auto;
+}
+
+#chatWindow {
+	height:25%;
+	width:80%;
+	background-color:pink;
+	margin:auto;
+}
+
+#researchButtonDiv {
+	top:10px;
+	left:10px;
+	height:150px;
+	position:relative;
+}
+
+#researchPointsStr {
+	top:180px;
+	left:10px;
+	width:160px;
+	position:fixed;
+	text-align:center;
+	cursor:pointer;
+	color:red;
+	font-weight:bold;
+	font-size:150%;
+}
+
+#researchButton {
+	/*-webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);*/
+	width:140px;
+	left:5px;
+	position:absolute;
+	cursor:pointer;
+}
